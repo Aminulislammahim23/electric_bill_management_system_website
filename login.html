@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Electric Bill Management System</title>
+</head>
+<body style="font-family: Arial;background-color: rgb(67, 141, 238); margin: 0; padding: 0%;">
+  <center>
+      <div style="background-color: rgb(184, 53, 81); color: rgb(233, 227, 227); padding:  20px;"
+        <h1>Electric Bill Management System</h1>
+      </div>
+
+      <div style="padding: 20px;">
+        <h2>Customer Details</h2>
+        <form>
+            <label>Custumer Name:</label><br><br>
+            <input type="text" name="customerName"><br><br>
+
+            <lable>Customer ID:</lable><br><br>
+            <input type="text" name="customerID"><br><br>
+
+            <label>Address:</label><br>
+            <input type="text" name="address"><br><br>
+
+            <label>Billing MOnth:</label><br>
+            <select name="month">
+                <option>--Select Month--</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select><br><br>
+
+            <label>Units Consumed (kWh):</label><br>
+            <input type="number" name="units"><br><br>
+
+            <label>Rate per Unit:</label><br>
+            <input type="number" name="rate" value="10"><br><br>
+
+            <input type="submit" value="Calculate Bill">
+    </form>
+  </div>
+
+  <div style="padding: 20px;">
+        <h2>Previous Bills</h2>
+        <table border="1" cellpadding="10" cellspacing="0" style="width: 100%;background-color: white;"
+        <tr style="background-color: beige;">
+            <th>Customer ID</th>
+            <th>Name</th>
+            <th>Month</th>
+            <th>Units</th>
+            <th>Rate</th>
+            <th>Total Bill</th>
+        </tr>
+        <tr>
+          <td>1001</td>
+          <td>Aminul Islam Mahim</td>
+          <td>June</td>
+          <td>120</td>
+          <td>10</td>
+          <td>1200</td>
+        </tr>
+         <tr>
+                <td>1002</td>
+                <td>Jane Smith</td>
+                <td>June</td>
+                <td>90</td>
+                <td>10</td>
+                <td>900</td>
+         </tr>
+         </div>
+    <footer style="background-color: #333; color: white; text-align: center; padding: 10px;">
+        &copy; 2025 Electric Bill Management System
+    </footer>
+  </center>
+</body>
+
+</body>
+</html>
